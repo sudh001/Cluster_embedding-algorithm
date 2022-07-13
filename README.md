@@ -16,3 +16,5 @@ The main idea behind this seemingly random algorithm is that if given ideal clus
 Hence the nodes in the same cluster will have very similar embeddings and hence k-means algorithm would cluster them together. This shows that ideal clusters would be a point of convergence
 
 It is important to note that the clusters formed aren't stable if `max_iter` version is used
+
+The embeddings obtained can be used for further downstream tasks like node, edge clasification and can also be passed into graph neural networks for further processing. This repo dosen't extensivly test this yet though.
